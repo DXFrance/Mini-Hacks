@@ -59,7 +59,7 @@ Nous allons maintenant créer un compte SendGrid et une clé d'API pour pouvoir 
 Nous allons maintenant nous connecter au portail SendGrid pour créer une clé d'API que nous utiliserons par la suite avec Azure Functions pour envoyer des emails.
 - Cliquez sur __Manage__
 
-![SendGrid](../Screenshots/sendgrid8.png)
+![SendGrid](../Screenshots/sendgrid8.PNG)
 
 *Le portail Azure nous redirige vers le portail SendGrid.*
 
@@ -155,7 +155,7 @@ Connectez-vous à l'adresse https://minihackmailfunction.scm.azurewebsites.net/D
 - Dans la console affichée dans la page, exécutez la commande suivante pour naviguer jusqu'à la racine de l'application Azure Functions :
 
 ```bash
-$ cd home\wwwroot
+$ cd home\site\wwwroot
 ```
 
 - Dans la zone d'arborescence des fichiers, cliquez sur le bouton [+] pour créer un nouveau fichier
@@ -180,7 +180,7 @@ $ cd home\wwwroot
 
 ![Azure Functions](../Screenshots/AzureFunctions8.png)
 
-- Exécutez la commande suivante depuis la console Kudu (vérifiez que vous êtes bien dans le répertoire __site\wwwroot__) :
+- Exécutez la commande suivante depuis la console Kudu (vérifiez que vous êtes bien dans le répertoire __home\site\wwwroot__) :
 
 ```bash
 $ npm install
@@ -189,7 +189,7 @@ $ npm install
 *Un dossier "node_modules" est créé dans le dossier courant avec le package "sendgrid" à l’intérieur.*
 *Ce package sera utilisé depuis le code de notre fonction Azure.*
 
-## 5) Créer un webhook vers le service d'envoi d'email
+## 5) Créer un web hook vers le service d'envoi d'email
 
 Pour appeler notre fonction Azure après chaque déploiement de l'application Symfony sur Azure, il est nécessaire de créer un Web Hook.
 Pour faire nous allons nous connecter à la console Kudu de l'application web Azure créée dans ce mini-hack :

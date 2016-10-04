@@ -147,11 +147,11 @@ Pour configurer la souce de déploiement :
 ![Symfony](Screenshots/AzureWebAppDeployment3.png)
 
 Si vous n'avez jamais déployé d'application web Azure à partir d'un référentiel Git local, il est nécessaire de renseigner les informations d'identification du référentiel Git local :
-    - Dans la section __Déploiement des applications__ de l'application web, cliquez sur __Informations d'identification de déploiement__
-    - Saisissez un nom d'utilisateur
-    - Saisissez un mot de passe
-    - Confirmez le mot de passe
-    - Cliquez sur __Enregistrer__ pour valider les informations d'identification
+- Dans la section __Déploiement des applications__ de l'application web, cliquez sur __Informations d'identification de déploiement__
+- Saisissez un nom d'utilisateur
+- Saisissez un mot de passe
+- Confirmez le mot de passe
+- Cliquez sur __Enregistrer__ pour valider les informations d'identification
         
 ![Symfony](Screenshots/AzureWebAppDeployment2.png)
 
