@@ -16,8 +16,8 @@ Ce tutoriel se déroule en 3 phases :
 - Git :
     - [Git pour Windows](https://git-scm.com/download/win)
     - [Git pour Mac OS X ou Linux](https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git)
-- Une distribution récente de PHP 5 ou 7 :
-    - [PHP 5.6](https://secure.php.net/downloads.php#v5.6.26)
+- Une distribution récente de PHP 5 ou 7 avec l'extension openssl activée :
+    - [PHP 5.6](https://secure.php.net/downloads.php#v5.6.26) 
     - [PHP 7.0](https://secure.php.net/downloads.php#v7.0.11)
 
 ## 2) Création d'une nouvelle application web avec Azure App Service
@@ -104,7 +104,7 @@ $ sudo chmod a+x /usr/local/bin/symfony
 c:\> php -r "file_put_contents('symfony', file_get_contents('https://symfony.com/installer'));"
 ```
 
-Note pour les utilsateurs sous Windows :
+Note pour les utilisateurs sous Windows :
 - Ajoutez le fichier __symfony__ dans la variable d'environnement __PATH__ pour pouvoir appeler ce programme depuis n'importe quel répertoire.
 
 #### 3.2.2) Démarrer un nouveau projet d'application Symfony
